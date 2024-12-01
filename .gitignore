@@ -1,0 +1,48 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.idea/
+*.log
+
+# Distribution / Packaging
+*.egg-info/
+*.eggs/
+build/
+dist/
+
+# Local configurations
+*.env
+.env.*
+*.ini
+*.yaml
+
+# VS Code settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Pyre
+.pyre/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
