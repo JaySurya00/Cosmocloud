@@ -15,4 +15,4 @@ async def startup_event():
 async def shutdown():
     await MongoDB.close()
 
-app.include_router(student_router)
+app.include_router(student_router,prefix='/api')
