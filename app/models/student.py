@@ -10,7 +10,6 @@ class Student(BaseModel):
     age: int
     address: Address
     
-
 class AddressUpdate(BaseModel):
     city: Optional[str] = None
     country: Optional[str] = None
