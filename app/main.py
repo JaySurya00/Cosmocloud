@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from .routers.students import router as student_router
-from .DB.mongoDB import MongoDB
+from app.routers.students import router as student_router
+from app.DB.mongoDB import MongoDB
 import os
 
 app= FastAPI()
